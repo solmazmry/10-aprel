@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+}
+.header{
+    background: #12263e;
+    padding: 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    li{
+        a{
+            color: #fff;
+            font-family: SpaceGroteskMedium, sans-serif;
+        }
+    }
+}
+
+.header_link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    a{
+        color: #fff;
+        font-family: SpaceGroteskMedium, sans-serif;
+        cursor: pointer;
+      
+        font-weight: 700;
+   
+    
+    }
+}
+
+.button_style{
+    color: #fff;
+    background-color: #2b63e3;
+    border: 1px solid #2b63e3;
+     cursor: pointer;
+    padding: 16px 32px;
+    font-size: 15px;
+    line-height: 20px;
+    transition: all .4s;
+    text-align: center;
+    border-radius: 32px;
+    margin: 0;
+    
+}
+.button_style:hover{
+    background-color: #0158b5eb;
+  
+}
+
+.section{
+    background: #12263e;
+    height: 80vh;
+    position: relative;
+}
+.section_menu{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.banner_img{
+   width: 40%;
+   img{
+    width: 520px;
+    position: absolute;
+    bottom: 0;
+   }
+}
+.header_content{
+    width: 58%;
+    margin-top: 90px;
+   
+    h1{
+        font-size: 42px;
+        color: #fff;
+        font-weight: 700;
+   
+    font-family: SpaceGroteskMedium, sans-serif;
+
+    }
+}   p{
+    max-width: 480px;
+    font-size: 22px;
+    color: #fff;
+    padding-top: 28px;
+    padding-bottom: 40px;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: SpaceGroteskRegular, sans-serif;
+    opacity: .8 !important;
+
+
+}
+
+.button_style2{
+ 
+    background-color: #2b63e3;
+    border: 1px solid #2b63e3;
+    color: #fff;
+    cursor: pointer;
+    padding: 16px 32px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 32px;
+    width: max-content;
+    text-align: center;
+    transition: all .4s;
+    font-family: SpaceGroteskSemiBold, sans-serif;
+    
+  }
+.button_style2:hover{
+    background-color: #0158b5eb;
+  
+}
+ 
